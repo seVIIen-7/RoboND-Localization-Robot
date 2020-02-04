@@ -16,10 +16,13 @@ $ sudo apt-get install ros-kinetic-amcl
 First, launch the simulation:
 ```
 $ cd /home/workspace/catkin_ws/
+$ source devel/setup.bash
 $ roslaunch <YOUR PACKAGE NAME> <YOUR WORLD>.launch
 ```
 In a new terminal, launch the amcl launch file:
 ```
+$ cd /home/workspace/catkin_ws/
+$ source devel/setup.bash
 $ roslaunch <YOUR PACKAGE NAME> amcl.launch
 ```
 RViz Configuration:
