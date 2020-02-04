@@ -40,5 +40,7 @@ Click the 2D Nav Goal button in the toolbar, then click and drag on the map to s
 ### Option 2: Use `teleop` Node
 Open another terminal and launch the `teleop` script:
 ```
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+$ cd /home/workspace/catkin_ws/
+$ source devel/setup.bash
+$ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
